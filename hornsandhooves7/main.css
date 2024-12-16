@@ -1,0 +1,137 @@
+A:link { 
+color: rgb(255, 131, 218); /* Цвет непосещенных ссылок */
+}
+A:visited { 
+color: rgb(255, 140, 236); /* Цвет посещенных ссылок */
+}
+ A:hover { 
+color: rgb(255, 255, 255); /* Цвет ссылок при наведении на них курсора мыши */
+ 
+}
+ nav{ /* Левая колонка */
+   width: 110px; /* Ширина слоя */
+   padding:  10px; /* Отступы вокруг текста */
+   float: left; /* Обтекание по правому краю */
+   background-color: rgb(171, 255, 255);
+   }
+
+  body {
+   background:  #ffd0e8;
+   margin: 0; /* убираем поля по краям страницы */
+  }
+  ul{
+   padding: 13px;
+  }
+
+      header {
+      height: 80px;
+      text-align: center; /* Выравнивание по центру */
+      padding: 10px; /* Отступы вокруг текста */
+      background: #f5c1ff; /* Цвет фона шапки */
+      font-size: 2.2em;
+      position: static;
+      }
+      main {
+         margin-left: 130px; /* Отступ слева */
+         padding: 11px; /* Поля вокруг текста */
+         background: #fff; /* Цвет фона правой колонки */
+         position: sticky;
+   }
+   footer {
+      background: #ffffff; /* Цвет фона подвала */
+      color: #000000; /* Цвет текста */
+      padding: 5px; /* Отступы вокруг текста */
+      clear: left; /* Отменяем действие float */
+   }
+
+      img{
+    border: 3px blue dotted;
+}
+   nav a[href ="https://мвд.рф/"]{
+    color: rgb(0, 0, 0);
+   }
+   h1{
+      margin: 15px 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      text-align: center;
+      letter-spacing: 2px;
+      color: #ffffff;
+  }
+  h2 {
+      font-family: 'Comfortaa', cursive;
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #ff006a;
+   }
+  h3 {
+      font-size: 13px;
+      margin: 0;
+      color: #b8466c;
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      letter-spacing: 1.4px;
+      text-align: center;
+   }
+   p {
+      font-family: 'Didact Gothic', sans-serif;
+      color: #ff00c8;
+      font-size: 14px;
+      line-height: 22px;
+   }
+   b{
+      font-family: 'Didact Gothic', sans-serif;
+      color: #ff3b8dd3;
+      font-size: 14px;
+      line-height: 22px;
+   }
+   a{
+      font-size: 13px;
+      margin: 0;
+      color: #b40850;
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      letter-spacing: 1.4px;
+      text-align: center;
+   }
+   header{
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      text-align: center;
+      letter-spacing: 2px;
+      color: #ffffff;
+   }
+   input[type]:focus{
+      background-color: #fc70aa;
+   }
+   button:focus {
+      outline: 2px solid #fc6cd1;
+      outline-offset: 3px;
+    }
+    nav ul li{
+      list-style: url(marker.jpg);
+    }
+    nav ul li:visited{
+      padding: 0px;
+      list-style: url(marker2.jpg);
+    }
+    nav ul li:hover{
+      padding: 10px;
+      list-style: url(marker2.png);
+    }
+th{
+   background-color: rgb(255, 184, 208);
+   color: white;
+}
+.cat{
+background-color: white;
+color: #000000;
+}
+th, td{
+   border: 1px solid rgb(252, 130, 181);
+   padding: 10px;
+   text-align: left;
+}
