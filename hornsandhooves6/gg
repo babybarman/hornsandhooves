@@ -1,0 +1,66 @@
+body {
+      font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+      background: radial-gradient(rgb(255, 190, 226), #fa67b1);
+      }
+img{
+    border: 3px blue dotted;
+}
+
+h1{
+    margin: 15px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff006a;
+ }
+h3 {
+    font-size: 13px;
+    margin: 0;
+    color: #b8466c;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 1.4px;
+    text-align: center;
+ }
+ p {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 22px;
+ }
+ b{
+    font-family: 'Didact Gothic', sans-serif;
+    color: #ff3b8dd3;
+    font-size: 14px;
+    line-height: 22px;
+ }
+ a{
+    font-size: 13px;
+    margin: 0;
+    color: #b40850;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 1.4px;
+    text-align: center;
+ }
+ table {
+    padding: 20px;
+    width: 500px;	height: 78px; 
+    background: rgb(255, 123, 167); 
+    outline: 2px solid #d31746; 
+    border: 3px solid #fff; 
+    border-radius: 10px; 
+   }
+   nav a[href ="https://мвд.рф/"]{
+    color: rgb(0, 0, 0);
+   }
