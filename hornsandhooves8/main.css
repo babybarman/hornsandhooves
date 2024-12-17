@@ -1,0 +1,178 @@
+* {
+   box-sizing: border-box; /* Устанавливает box-sizing для всех элементов */
+}
+
+body {
+   background-color: #ffb9d6; /* Цвет фона страницы */
+   font-size: 1.1em; /* Размер шрифта */
+   padding: 1em; /* Отступы вокруг содержимого */
+   display: flex; /* Включает flexbox для body */
+   flex-direction: column; /* Располагает элементы вертикально */
+   min-height: 100vh; /* Обеспечивает полную высоту страницы */
+margin: 0px;
+  }
+img{
+  border: 3px blue dotted;
+}
+header {
+  height: 100px;
+  text-align: center; /* Выравнивание по центру */
+  padding: 1px; /* Отступы вокруг текста */
+  background: #f5c1ff; /* Цвет фона шапки */
+  color: #fff;
+  font-size: 2.2em;
+  position: static;
+  }
+
+article {
+   background-color: #ffcce4; /* Цвет фона статьи */
+   flex: 2; /* Занимает больше места */
+   padding: 2em; /* Отступы вокруг содержимого статьи */
+}
+
+aside {
+   flex: 1; /* Занимает меньше места */
+   background-color: rgb(171, 255, 255); /* Цвет фона боковой панели */
+   padding: 10px; /* Отступы вокруг содержимого боковой панели */
+}
+
+footer {
+   flex-shrink: 0; /* Предотвращает сжатие подвала */
+   background: #f5c1ff; /* Цвет фона подвала */
+   padding: 5px; /* Отступы вокруг содержимого подвала */
+    color: #000000; /* Цвет текста */
+    clear: left; /* Отменяем действие float */
+ }
+
+nav {
+   display: flex; /* Включает flexbox для навигации */
+   justify-content: center; /* Центрирует содержимое по горизонтали */
+}
+
+nav ul {
+   display: flex; /* Располагает элементы списка в ряд */
+   align-items: center; /* Центрирует элементы по вертикали */
+   padding: 0; /* Убирает стандартные отступы */
+}
+
+nav ul li {
+   list-style-type: none; /* Убирает стандартное оформление списка */
+   margin-right: 10px; /* Добавляет пространство между элементами списка */
+}
+
+ul {
+   padding-left: 0; /* Убирает стандартные отступы для ul */
+}
+
+h1, h2, h3, p, b, a {
+  margin: 15px 0; /* Отступы сверху и снизу для заголовков и параграфов */
+}
+
+/* Заголовки и параграфы */
+h1 {
+  margin: 15px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive; /* Шрифт для заголовка второго уровня */
+  font-size: 18px; 
+  font-weight: 400;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ff006a;
+}
+
+h3 {
+  font-size: 13px;
+  margin: 0;
+  color: #b8466c;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  letter-spacing: 1.4px;
+}
+
+/* Параграфы и ссылки */
+p {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #ff00c8;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+b {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #ff3b8dd3;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+a {
+  font-size: 13px;
+  color: #b40850;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  letter-spacing: 1.4px;
+}
+
+/* Стили ссылок при наведении и активных ссылках */
+a:hover, a.link {
+  color: rgb(255, 255, 255); 
+}
+
+/* Стили фокуса для полей ввода и кнопок */
+input[type]:focus {
+  background-color: #fc70aa; 
+}
+
+button:hover {
+  outline-color:#fc6cd1; 
+}
+
+/* Стили таблиц */
+th {
+  background-color: rgb(255, 184, 208); 
+  color:white; 
+}
+
+th, td {
+  border: 1px solid rgb(252,130,181); 
+  padding :10px ; 
+  text-align:left ; 
+}
+/* Эффекты наведения для ячеек таблицы */
+table td:hover {
+  color: rgb(255, 255, 255); 
+  background:  transparent; 
+}
+nav1 ul li{
+  list-style: url(marker.jpg);
+}
+nav1 ul li:visited{
+  padding: 0px;
+  list-style: url(marker2.png);
+}
+nav1 ul li:hover{
+  padding: 10px;
+  list-style: url(marker2.png);
+}
+main {
+  margin-left: 231px; /* Отступ слева */
+  padding: 10px; /* Поля вокруг текста */
+  background: #fff; /* Цвет фона правой колонки */
+  position: sticky;
+}
+nav1{ 
+  width: px; /* Ширина слоя */
+  padding:  22px; /* Отступы вокруг текста */
+  float: left; /* Обтекание по левому краю */
+  background-color: rgb(171, 255, 255);
+  }
+  ul{
+    padding: 1px;
+   }
